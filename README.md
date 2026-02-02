@@ -60,8 +60,6 @@ The robot will start moving automatically based on track detection.
 
 ⚙️ How the Robot Works
 
-You can put this under “Working Principle” in GitHub.
-
 🟢 Moving Forward
 forward()
 
