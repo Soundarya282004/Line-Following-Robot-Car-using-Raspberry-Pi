@@ -24,14 +24,13 @@ RPi.GPIO library (usually preinstalled)
 
 If not:
 
-pip install RPi.GPIO
-
+    pip install RPi.GPIO
 ▶ How to Run the Code
 1️⃣ Save the file
 
 Save as:
 
-main.py
+    main.py
 
 2️⃣ Connect all hardware
 
@@ -46,9 +45,8 @@ IR sensors connected to GPIO 20 and 21
 Proper power supply given
 
 3️⃣ Run on Raspberry Pi
-python3 main.py
 
-
+    python3 main.py
 The robot will start moving automatically based on track detection.
 
 ⚙️ How the Robot Works
