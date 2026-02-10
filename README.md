@@ -35,14 +35,10 @@ Save as:
 2️⃣ Connect all hardware
 
 Make sure:
-
-Motors connected to motor driver
-
-Motor driver connected to GPIO pins
-
-IR sensors connected to GPIO 20 and 21
-
-Proper power supply given
+- Motors connected to motor driver
+- Motor driver connected to GPIO pins
+- IR sensors connected to GPIO 20 and 21
+- Proper power supply given
 
 3️⃣ Run on Raspberry Pi
 
@@ -52,9 +48,8 @@ The robot will start moving automatically based on track detection.
 ⚙️ How the Robot Works
 
 🟢 Moving Forward
-forward()
 
-
+    forward()
 When both sensors are not detecting the line, the car moves forward.
 
 ⛔ Stop Condition
