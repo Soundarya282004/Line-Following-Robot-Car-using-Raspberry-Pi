@@ -24,14 +24,14 @@ RPi.GPIO library (usually preinstalled)
 
 If not:
 
-pip install RPi.GPIO
+    pip install RPi.GPIO
 
 ▶ How to Run the Code
 1️⃣ Save the file
 
 Save as:
 
-main.py
+    main.py
 
 2️⃣ Connect all hardware
 
@@ -46,8 +46,8 @@ IR sensors connected to GPIO 20 and 21
 Proper power supply given
 
 3️⃣ Run on Raspberry Pi
-python3 main.py
 
+    python3 main.py
 
 The robot will start moving automatically based on track detection.
 
@@ -56,15 +56,15 @@ The robot will start moving automatically based on track detection.
 You can put this under “Working Principle” in GitHub.
 
 🟢 Moving Forward
-forward()
 
+    forward()
 
 When both sensors are not detecting the line, the car moves forward.
 
 ⛔ Stop Condition
-if GPIO.input(OD2) == 1 and GPIO.input(OD1) == 1:
-    stop()
 
+    if GPIO.input(OD2) == 1 and GPIO.input(OD1) == 1:
+        stop()
 
 If both sensors detect the line (or obstacle), the car stops.
 
