@@ -79,11 +79,11 @@ If both sensors detect the line (or obstacle), the car stops.
 If the right sensor detects the line, the robot corrects by turning left.
 
 ↪ Turning Right
-if GPIO.input(OD1):
-    stop()
-    backward()
-    Right()
 
+    if GPIO.input(OD1):
+        stop()
+        backward()
+        Right()
 
 If the left sensor detects the line, the robot corrects by turning right.
 
