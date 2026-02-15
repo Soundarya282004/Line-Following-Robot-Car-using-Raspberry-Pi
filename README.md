@@ -95,9 +95,7 @@ The loop runs forever, checking sensors every 0.5 seconds to stay on track.
 
 Press:
 
-CTRL + C
-
-
+    CTRL + C
 GPIO pins reset safely using:
 
-GPIO.cleanup()
+    GPIO.cleanup()
