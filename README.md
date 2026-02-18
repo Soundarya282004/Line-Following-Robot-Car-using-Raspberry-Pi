@@ -17,7 +17,8 @@ Right IR Sensor	GPIO 21	Detects right side of track
 Left Motor IN1	GPIO 2	Motor control
 Left Motor IN2	GPIO 3	Motor control
 Right Motor IN1	GPIO 17	Motor control
-Right Motor IN2	GPIO 4	Motor control
+<img width="526" height="145" alt="image" src="https://github.com/user-attachments/assets/1ced4f72-bba8-471e-b6e3-004dfde5fbee" />
+
 💻 Software Requirement
 
 RPi.GPIO library (usually preinstalled)
