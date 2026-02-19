@@ -11,12 +11,7 @@ This project builds an autonomous robot car that follows a track made of black l
 - Jumper Wires
 
 🔧 GPIO Pin Configuration
-Component	GPIO Pin	Purpose
-Left IR Sensor	GPIO 20	Detects left side of track
-Right IR Sensor	GPIO 21	Detects right side of track
-Left Motor IN1	GPIO 2	Motor control
-Left Motor IN2	GPIO 3	Motor control
-Right Motor IN1	GPIO 17	Motor control
+
 <img width="526" height="145" alt="image" src="https://github.com/user-attachments/assets/1ced4f72-bba8-471e-b6e3-004dfde5fbee" />
 
 💻 Software Requirement
